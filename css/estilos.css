@@ -1,0 +1,422 @@
+﻿*{
+   margin: 0; padding: 0;
+ }
+
+body {
+        font-family: 'Inconsolata', monospace;
+	background: #DECAF9;
+	}
+
+
+.bloque{
+    width: 100%;
+    height: auto;
+    overflow: hidden;  
+
+}
+
+.header{
+
+   background-image:url(../fotos2/negro.jpg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+.centrar{
+    width: 80%;
+    height: auto;
+    overflow: hidden;  
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+
+}
+
+.logo{
+   color: #F7F9F9; margin-top: 10px;
+   width: 30%;
+   float: left;
+   text-align: left;
+
+}
+
+.menu-principal{
+   width: 60%;
+   float: right;
+   border: 0px solid #fff;/*para hacer tipo foto*/
+   background: rgba(56, 0, 131, 0.6);
+   border-radius: 7px;
+}
+
+.menu-principal ul{}
+
+.menu-principal ul li{
+   list-style:none;
+   display: inline-block;
+   padding: 15px 20px;
+}
+
+.menu-principal ul li a{  
+      color: #fff;
+      text-decoration: none;
+}
+
+
+
+
+/*Izquierda y Derecha---------------------------------------------*/
+
+.izquierda, .derecha{
+     width: 48%;
+     height: auto; overflow;
+     /*border: 1px solid #fff;*/
+     display: inline-block;
+
+}
+
+.izquierda{
+    float: left;
+    text-align: left;
+    
+ }
+.titulo-principal{
+
+  color: #FFFFFF;
+  font-size: 60px;
+
+}
+.subtitulo{
+     color: #9C6CDE;
+
+}
+
+.descripcion {
+    color: #fff;
+    font-weight: 400;
+    
+}
+
+.boton{
+    padding: 17px;
+    background:  #CDB3F0;  
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+    float: center;
+    
+}
+
+
+.derecha{
+       float: right;
+    }
+.img-portada{
+    width: 65%;
+     border-radius: 20px;
+
+}
+
+/*-----------------------Enlaces de pagina principal --------------------------------------*/   
+
+.redes a img {
+     width: 10%;
+     /*height: 220px;*/
+     border: 0px solid;
+     border-radius: 7px;
+     padding: 10px; 
+     background:  #8910A4;
+   
+}
+
+.tituloy {
+
+    padding: 17px;
+    background:  #CDB3F0;  
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+    float: center;
+}
+/*----------------------INICIO DE SESION --------------------------*/
+
+.inicio {
+ width: 4%;
+ float: left;
+ background: rgba(56, 0, 131, 0.6);
+ border-radius: 17px;
+ padding: 15px 20px;
+ border: 0px solid;
+ display: inline-block;
+ 
+}
+
+.inicio a{
+     color: #fff;
+     text-decoration: none;
+
+}
+
+.formulario {
+   position: absolute;
+   top: 25%;
+   left: 35%;
+   transform: translate (-50%, -50%);
+   width: 400px;
+   background: white;
+   border-radius: 10px;
+
+}
+
+.formulario h1 {
+   text-align: center;
+   margin-top: 3%;
+   padding: 0 0 20px 0;
+   border-bottom: 1px solid silver;
+}
+
+.formulario .form {
+   padding: 0 40px;
+   box-sizing: border-box;
+
+}
+
+.form .username {
+   position: relative;
+   border-bottom: 2px solid #adadad;
+   margin: 30px 0;
+
+}
+
+.username input{
+
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  
+}
+
+
+
+.username label{
+   position: absolute;
+   top: 50%;
+   left:5px;
+   color: #adadad;
+   transform: translateY(-200%);
+   font-size: 16px;
+   pointer-events: none;
+
+}
+.form .contraseña {
+   position: relative;
+   border-bottom: 2px solid #adadad;
+   margin: 30px 0;
+
+}
+
+.contraseña input{
+
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  
+}
+
+.contraseña label{
+   position: absolute;
+   top: 50%;
+   left:4px;
+   color: #adadad;
+   transform: translateY(-200%);
+   font-size: 16px;
+   pointer-events: none;
+
+
+}
+
+.recordar {
+  margin: -5px 0 20px 5px;
+  color: blue;
+  cursor: pointer;
+}
+
+recordar:hover{
+  text-decoration: underline;
+}
+
+input[type="submit"]{
+   width: 100%;
+   height: 50px;
+   border: 1px solid;
+   background: #790892;
+   border-radius: 25px;
+   font-size: 18px;
+   color: #fff;
+   outline: none;
+}
+
+input[type="submit"]:hover{
+   border-color: black;
+   
+}
+
+.registrarse{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+
+}
+.registrarse a{
+ color: blue;
+ text-decoration: none;
+
+}
+
+.registrarse a:hover{
+   text-decoration: underline;
+
+}
+
+/*------------------- FORMULARIO ----------------------------*/
+.bo{
+   background:url(../fotos/mo.jpg);
+   background-repeat:repeat;
+   background-attachment:scroll;
+   background-position:0px 0px;
+
+}
+.forma {
+ width: 4%;
+ float: left;
+ background: rgba(56, 0, 131, 0.6);
+ border-radius: 17px;
+ padding: 15px 20px;
+ border: 0px solid;
+ display: inline-block;
+ 
+}
+
+.forma a{
+     color: #fff;
+     text-decoration: none;
+
+}
+
+
+
+
+/*--------------------- BIBLIOTECA ---------------------------*/
+.catalogo {
+ width: 4%;
+ float: left;
+ background: rgba(56, 0, 131, 0.6);
+ border-radius: 17px;
+ padding: 15px 20px;
+ border: 0px solid;
+ display: inline-block;
+ 
+}
+
+.catalogo a{
+     color: #fff;
+     text-decoration: none;
+
+}
+/*--------------------- ADAPTACIONES --------------------------*/
+
+.adap {
+ width: 4%;
+ float: left;
+ background: rgba(56, 0, 131, 0.6);
+ border-radius: 17px;
+ padding: 15px 20px;
+ border: 0px solid;
+ display: inline-block;
+ 
+}
+
+.adap a{
+     color: #fff;
+     text-decoration: none;
+
+}
+
+.adaptacion{
+
+    padding: 12px;
+    background:  #CDB3F0;  
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+    float: center;
+}
+
+/*--------------------- DESCARGA ---------------------------------*/
+.des {
+ width: 4%;
+ float: left;
+ background: rgba(56, 0, 131, 0.6);
+ border-radius: 17px;
+ padding: 15px 20px;
+ border: 0px solid;
+ display: inline-block;
+ 
+}
+.des a{
+     color: #fff;
+     text-decoration: none;
+
+}
+
+.descargar{
+
+    padding: 12px;
+    background:  #CDB3F0;  
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+    float: center;
+}
+
+
+div.galeria{
+   position:center;
+   margin: 20px 380px;
+   box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgb(0, 0, 0, 0.19 );
+   float: center;
+   width: 400px;
+   font-size: 20px;
+   border: 1px solid;
+  
+}
+
+div.galeria img {
+    width: 100%
+    height: auto;
+  
+}
+
+div.galeria: hover{
+   border: 1px solid lightcoral;
+   transfom: rotate(-30deg);
+
+}
+
+div.pie{
+   text-align: center;
+   text-shadow: 2px 2px 5px #211C5F;
+   padding: 10px;
+   text-decoration: none;
+
+}
+
